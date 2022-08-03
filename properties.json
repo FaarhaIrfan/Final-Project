@@ -1,0 +1,52 @@
+[
+  {
+  "Id":1,
+  "SellRent":1,
+  "Name":"Birla House",
+  "Type":"House",
+  "Price":738400,
+  "Image":"houselogo"
+},
+
+{
+  "Id":2,
+  "SellRent":2,
+  "Name":"Macro House",
+  "Type":"House",
+  "Price":236500,
+  "Image":"logo-1"
+},
+
+{
+  "Id":3,
+  "SellRent":1,
+  "Name":"Pearl Mansion",
+  "Type":"House",
+  "Price":145600,
+  "Image":"logo-2"
+},
+
+{
+  "Id":4,
+  "SellRent":1,
+  "Name":"Ericson Villa",
+  "Type":"Villa",
+  "Price":1200000,
+  "Image":"logo-8"
+},
+{
+  "Id":5,
+  "SellRent":2,
+  "Name":"Mohali House",
+  "Type":"Villa",
+  "Price":1200000,
+  "Image":"logo-5"
+},
+{
+  "Id":6,
+  "SellRent":1,
+  "Name":"Damodar Villa",
+  "Type":"Villa",
+  "Price":1200000,
+  "Image":"logo-9"
+}]

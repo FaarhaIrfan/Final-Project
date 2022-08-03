@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6 mt-5 ml-5" >
+        <img src="../../../assets/image/HD.jpg" height="100%" width="70%"  alt="">
+      </div>
+      <div class="col-md-4 mt-3">
+          <h3 class="text-success text-center mt-3">Welcome To HouspaDealers</h3>
+
+          <form action="" class="mt-4" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+              <h5 class="text-primary mb-3">Register</h5>
+
+
+                  <div class="form-group mb-3 " >
+
+                    <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Fullname" name="name" [(ngModel)]="name">
+
+                  </div>
+
+                  <div class="form-group mb-3 " >
+
+                    <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EmailAddresss" name="username" [(ngModel)]="username">
+
+                  </div>
+
+
+
+                  <div class="form-group mb-3">
+
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password" [(ngModel)]="password">
+                  </div>
+
+                  <div class="form-group mb-3">
+
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password" name="confirmpassword" [(ngModel)]=" confirmpassword">
+                  </div>
+
+                  <div class="form-group mb-3 " >
+
+                    <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contact Number" name="contact" [(ngModel)]="contact">
+
+                  </div>
+
+
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-outline-success  me-md-2" type="button" (click)="signup()">Register</button>
+                </div>
+
+                <a routerLink='user/login' class="text-primary"  style="text-decoration: none;">Login ?</a>
+          </form>
+
+      </div>
+
+      <div class="col-md-2">
+
+      </div>
+  </div>
+</div>
